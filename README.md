@@ -3,10 +3,13 @@
 mbedtls bindings for Chemical.
 
 ## Usage
+```chmod
+import "chemicallang/mbedtls"
+```
+
+### Example
 
 ```chemical
-import mbedtls
-
 func main() : int {
     var input = "Chemical"
     var output : [32]u8
